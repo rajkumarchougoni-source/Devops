@@ -1,0 +1,164 @@
+
+1)D:\certsfabric\clientadmin_5C8F69BE7C7934154356EE4F564873DE67AB8F71.pfx(path for certificate)
+2)https://portal.azure.com/#home(     AZURE link)
+3)https://localhost:19080/Explorer/index.html#/apps  (internet explorer link for service fabric now)
+4)https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps   (certificate information)
+
+5)https://tietoevry-my.sharepoint.com/:v:/r/personal/sikha_borah_tietoevry_com/Documents/Recordings/RITM%27s%20related%20to%20bachjobs%20report%20generation%20in%20Supplier%20server-20220331_133421-Meeting%20Recording.mp4?csf=1&web=1&e=H1Gs6j
+6)https://tietoevry-my.sharepoint.com/:v:/p/sauli_jantti/EZx4-DVZ42pMpyIsOZSLzjoBCp4hrvOMssUxD7ljvxCumg
+7)https://l00srv128:19080/Explorer/old.html#/apps
+8)https://tietoevry-my.sharepoint.com/:v:/p/ram_biyani/EcKvnvahostKuV6f68iokZ8BIIsUVHUlHn8gz3jJCv2YAQ
+
+
+UimOC#1403dY--> UPMCONVERT DEV
+ZyRo8vcxTQw5QshZvn--> UPMCONVERT PROD
+tefd$qwg-------------> UPMCONVERT TEST
+J5mI5J4RAum6NN------->adm-v799832@upmkymmene.onmicrosoft.com
+K0vaa_Bu1ld1a?T0dellak1n!--> Build server password. Z01FORITBAW01P\build
+
+a123A@#[..
+835698
+m1n2b3v4c5x6z7!@#$%
+
+
+
+
+dev.azure.com/upmkymmene/FOR-IT/_git/FORIT%20Platform
+\\forestfileprem.file.core.windows.net\azureforfile02\VatoDev
+
+
+
+https://upmcitrix.group.upm.com/Citrix/UPMAppsWeb/
+
+
+
+ctrl+Alt+end
+
+new password citrix and myaccess portal , hcl snow: 9032836594RAJ!@#$%,  7989615630RAJ!@#$%
+remote servers password:  q1w2e3r4t5y6u7i8o9p0!@#$%
+
+
+net use Y: /delete
+net use Y: c\homedir\u005raputest\userdata
+
+
+\\forestfileprem.file.core.windows.net\azureforfile01
+localhost\forestfileprem
+IVt0F4cRduEAvekZv+VvUoxTkSiOVlrNMR7lZEiEYPpsGVjitc2a8f7Ve+nt0BTvXx9pHYfCz8otzCT9iMXv4Q==
+
+
+
+
+open portal.azure.com
+
+RE: HCL Infra Release June'2022/ TMW06------------------------18th june 2022
+
+
+select USERNAME,ACCOUNT_STATUS,PASSWORD_VERSIONS from dba_users where USERNAME like '%K417300%';..
+
+username: upmconvert
+password :upm2tieto
+
+
+AARM identity manager:
+
+net use i: \\l00clforfile01\forsource\forupdate\Interfaces\Production
+
+
+For OS patching on Production Servers
+
+
+1)Connect-ServiceFabricCluster L00SRV167:19000 -KeepAliveIntervalInSec 10 -X509Credential -ServerCertThumbprint F632001E4DCF32A7B585A74A69AC205AABA3E552 -FindType FindByThumbprint -FindValue 0F8E64CFC3C998A3FB22A45B659918C67B4E80BE -StoreLocation LocalMachine -StoreName My
+
+2)Disable-ServiceFabricNode -NodeName "L00SRV170" -Intent Restart
+3)Enable-ServiceFabricNode -NodeName 10.225.16.201 
+
+To restart SF node through commands
+3)restart-ServiceFabricNode -Nodename _NodeType2_4
+
+
+
+
+UPM.Forest.Microservices.Forestry.ForestryOperationWebApi.exe
+
+
+
+robocopy “C:\Anant" “D:\raj" /r:60 /w:5 /MIR /MT:64 /COPY:DT
+
+new deployment fileshare : \\Z01FORITBAW01P\forsource\Forupdate\Test\xa712\
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1)refresh Azure  cosmos DB--- https://confluence.shared.int.tds.tieto.com/pages/viewpage.action?spaceKey=UPMB&title=7.2.4+How+to+refresh+Cosmos+DB+Users+container
+
+DSS tns file location : \\l00clforfile01\forsource\Forupdate\DSS\Production\UPM.Forest.Dss.FabricPkg\Code\nlog.production.config 
+
+-------------------------------------------------------------------------------------------------------------------
+
+RAPU servers credentials
+
+USERID – U005RAPUFTP 
+
+ PASSWORD - August#15#2022
+
+------------------------------------------------------------------------------------------------------------------
+
+Cloud database credentials
+
+
+
+username - ADMIN
+
+password - szzbhxPAYxLng8X2UWUw
+
+ 
+
+===========================
+
+ 
+
+username - testuser2
+
+password: szzbhxPAYxLng8X2
+
+
+ 
+sfma password :9032836594RAJ!@#$%
+Personal pc password: rajkumar1
+Hdfc netbanking password: Meghana@1
+
+
+
+------------------------------
+Gives the run time of each actor
+
+SELECT
+    (actor_exec_end_time - actor_exec_start_time) * 86400 AS time_difference_seconds
+FROM
+    common.actor_action where action_name= 'FINVOICE_ACK_LOADER';
+
+-----------------------------
+
+
+SCHEDU005
+aJoKoNe04
+
+
+BAUPC7019J
+MeghanaRaj@123
+
+Git--->https://gitlab.shared.pub.tds.tieto.com/users/sign_in
+Mediassist-->https://portal.mediassist.in/Home.aspx?ReturnUrl=http%3a%2f%2fportal.mediassist.in%2fUserProfile.aspx
+UPM SNOW--->https://upmprod.service-now.com/now/nav/ui/classic/params/target/wizard_view.do%3Fsys_target%3D%26sysparm_wizardAction%3Dsysverb_new%26sysparm_parent%3D8db4a378c611227401b96457a060e0f4%26sysparm_stack%3Dchange_request_list.do
+Devops pipeline---->https://dev.azure.com/upmkymmene/FOR-IT/_build
+Teams--->https://teams.microsoft.com/v2/?culture=en-in&country=in
+Splunk--->https://upm.splunkcloud.com/en-US/app/Search_App_-_Forest/search
+https://www.benefitme.co.in/MMCTHTnnt/Forms/login.aspx
+https://sfma.upm.com/logon/LogonPoint/tmindex.html
+
+
+
+Should bring the same ODP version that is being used in Citrix servers.
+
+
