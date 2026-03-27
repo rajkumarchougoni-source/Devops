@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForReportData</name>
+    </assembly>
+    <members>
+        <member name="T:UPM.Forest.ForReportData.HarvestFeedbackDALC">
+            <summary>
+            HarvestFeedbackDALC handles database operations
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReportData.HarvestFeedbackDALC.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReportData.HarvestFeedbackDALC.GetFeedbackSamples(System.Int32)">
+            <summary>
+            Get feedback samples
+            </summary>
+            <param name="sendLimitDays"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportData.HarvestFeedbackDALC.GetEmails(System.String,System.String,System.Int64)">
+            <summary>
+            Get emails for specific sample
+            </summary>
+            <param name="measurementPoint"></param>
+            <param name="sampleYear"></param>
+            <param name="sampleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportData.HarvestFeedbackDALC.GetRepSample(System.String,System.String,System.Int64)">
+            <summary>
+            Get sample grid data
+            </summary>
+            <param name="measurementPoint"></param>
+            <param name="sampleYear"></param>
+            <param name="sampleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportData.HarvestFeedbackDALC.GetRepSampleQuality(System.String,System.String,System.Int64)">
+            <summary>
+            Get quality grid data
+            </summary>
+            <param name="measurementPoint"></param>
+            <param name="sampleYear"></param>
+            <param name="sampleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportData.HarvestFeedbackDALC.GetRepSampleLength(System.String,System.String,System.Int64)">
+            <summary>
+            Get length grid data
+            </summary>
+            <param name="measurementPoint"></param>
+            <param name="sampleYear"></param>
+            <param name="sampleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportData.HarvestFeedbackDALC.GetRepSampleGraph(System.String,System.String,System.Int64)">
+            <summary>
+            Get cutting accuracy graph data
+            </summary>
+            <param name="measurementPoint"></param>
+            <param name="sampleYear"></param>
+            <param name="sampleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportData.HarvestFeedbackDALC.GetSystemParameterText(System.String,System.String)">
+            <summary>
+            Get SYSTEM_PARAMETER_TEXT from COMMON.SYSTEM_PARAMETER
+            </summary>
+            <param name="parameterType"></param>
+            <param name="supplierGroupId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportData.HarvestFeedbackDALC.UpdateSampleHandledStatus(System.String,System.String,System.Int64)">
+            <summary>
+            Update otantatulos.rap_siirtohetki field
+            </summary>
+            <param name="measurementPoint">measurement point</param>
+            <param name="sampleYear">sample year</param>
+            <param name="sampleNumber">sample number</param>
+        </member>
+    </members>
+</doc>

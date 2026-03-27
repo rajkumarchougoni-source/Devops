@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  IgnorableNamespaces="uap">
+  <Identity Name="MyApp" Publisher="CN=MyCompany" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Properties>
+    <DisplayName>MyApp</DisplayName>
+    <PublisherDisplayName>CN=MyCompany</PublisherDisplayName>
+    <Logo>images\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Applications>
+    <Application Id="MyApp" Executable="PsfLauncher32.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="My App"
+                          Description="My MSIX App"
+                          BackgroundColor="transparent"
+                          Square150x150Logo="images\logo.png"
+                          Square44x44Logo="images\smalllogo.png" />
+						  
+      <Extensions>
+        <desktop:Extension Category="windows.fullTrustProcess" Executable="PsfLauncher32.exe">
+          <desktop:FullTrustProcess>
+            <desktop:ParameterGroup GroupId="Default" Parameters=""/>
+          </desktop:FullTrustProcess>
+        </desktop:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+</Package>

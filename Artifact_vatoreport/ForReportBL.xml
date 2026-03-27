@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForReportBL</name>
+    </assembly>
+    <members>
+        <member name="T:UPM.Forest.ForReportBL.HarvestFeedbackReport">
+            <summary>
+            HarvestFeedbackReport handles report specific data
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetFeedbackSamples(System.Int32)">
+            <summary>
+            Get all new sample identifications
+            </summary>
+            <param name="sendLimitDays"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.#ctor(System.String,System.String,System.Int64)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="measurementPoint">sample measurement point</param>
+            <param name="sampleYear">sample year</param>
+            <param name="sampleNumber">sample number</param>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.LoadReportData">
+            <summary>
+            Load sample data into data sets
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetSystemParameterText(System.String,System.String)">
+            <summary>
+            Get SYSTEM_PARAMETER_TEXT from COMMON.SYSTEM_PARAMETER
+            </summary>
+            <param name="parameterType"></param>
+            <param name="supplierGroupId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetEmails">
+            <summary>
+            Read emails for specific sample
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetMeasurementPoint">
+            <summary>
+            Get measurement point name
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetCuttingWindow(System.Int32@,System.Int32@)">
+            <summary>
+            Get cutting window upper and lower limit
+            </summary>
+            <param name="min"></param>
+            <param name="max"></param>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetCuttingAccuracy">
+            <summary>
+            Get cutting accuracy data: below, accepted and above
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetSample">
+            <summary>
+            Get sample grid data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetSampleQuality">
+            <summary>
+            Get quality grid data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetSampleLength">
+            <summary>
+            Get length grid data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReportBL.HarvestFeedbackReport.GetSampleGraph">
+            <summary>
+            Get cutting accuracy graph data
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

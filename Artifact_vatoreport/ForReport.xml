@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForReport</name>
+    </assembly>
+    <members>
+        <member name="T:UPM.Forest.ForReport.Constant">
+            <summary>
+             Constant is Singleton class
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.Instance">
+            <summary>
+            Access point for this Singleton class
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.TestMode">
+            <summary>
+            Get property for test mode
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.UseLogFile">
+            <summary>
+            Get property for using log file
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.LogFileName">
+            <summary>
+            Get property for log file name
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.ObserverEmailAddresses">
+            <summary>
+            Get property for test email addresses
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.TestEmailAddresses">
+            <summary>
+            Get property for test email addresses
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.SendLimitDays">
+            <summary>
+            Get property for send limit days
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.WorkDir">
+            <summary>
+            Get property for work directory
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.BackupDir">
+            <summary>
+            Get property for backup directory
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.StorePdfDays">
+            <summary>
+            Get property for store pdf days
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Constant.SmtpServer">
+            <summary>
+            Get property for smtp server
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.Constant.#ctor">
+            <summary>
+            Private constructor
+            </summary>
+        </member>
+        <member name="T:UPM.Forest.ForReport.EmailAddress">
+            <summary>
+            Email address
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailAddress.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="T:UPM.Forest.ForReport.Personalization">
+            <summary>
+            Personalization
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Personalization.To">
+            <summary>
+            To
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Personalization.Cc">
+            <summary>
+            cc
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.Personalization.Bcc">
+            <summary>
+            bcc
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailContent.ContentType">
+            <summary>
+            Content type
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailContent.ContentValue">
+            <summary>
+            Content value
+            </summary>
+        </member>
+        <member name="T:UPM.Forest.ForReport.EmailAttachment">
+            <summary>
+            Attachments
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailAttachment.Content">
+            <summary>
+            Content as base64 encoded string
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailAttachment.FileName">
+            <summary>
+            Filename
+            </summary>
+        </member>
+        <member name="T:UPM.Forest.ForReport.EmailMessage">
+            <summary>
+            Email message
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailMessage.Subject">
+            <summary>
+            Subject
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailMessage.From">
+            <summary>
+            From
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailMessage.Personalizations">
+            <summary>
+            List of email receivers
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailMessage.Content">
+            <summary>
+            Content
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.EmailMessage.Attachments">
+            <summary>
+            List of attachments
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.EmailMessage.ToJson">
+            <summary>
+            Convert to json
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UPM.Forest.ForReport.WebToken.AccessToken">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.WebToken.TokenType">
+            <summary>
+            Type of the token
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.WebToken.ExpiresIn">
+            <summary>
+            Seconds to expired
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.WebToken.System">
+            <summary>
+            Token system name
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.WebToken.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.WebToken.Expires">
+            <summary>
+            Expire datetime
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.WebToken.ToString">
+            <summary>
+            ToString
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:UPM.Forest.ForReport.HarvestFeedbackCont">
+            <summary>
+            HarvestFeedbackCont handles harvest feedback report generation. This class is Singleton
+            </summary>
+        </member>
+        <member name="P:UPM.Forest.ForReport.HarvestFeedbackCont.Instance">
+            <summary>
+            static access point for HarvestFeedbackCont class
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.Run">
+            <summary>
+            Creates pdf-files and sends emails
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.GetMeasurementPoint">
+            <summary>
+            Get measurement point
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.GetCuttingWindow(System.Int32@,System.Int32@)">
+            <summary>
+            Get cutting window lower and upper limit
+            </summary>
+            <param name="min"></param>
+            <param name="max"></param>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.GetCuttingAccuracy">
+            <summary>
+            Get cutting accuracy percentages: below, accepted and above
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.GetSample">
+            <summary>
+            Get sample grid data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.GetSampleQuality">
+            <summary>
+            Get quality grid data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.GetSampleLength">
+            <summary>
+            get length grid data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.GetSampleGraph">
+            <summary>
+            Get sample graph data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.GetSampleDataForReport(System.Data.DataRow)">
+            <summary>
+            Get sample data for specific sample
+            </summary>
+            <param name="sample"></param>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.CreatePdf(System.Data.DataRow)">
+            <summary>
+            Creates feedback report pdf-file
+            </summary>
+            <param name="sample"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.SendEmail(System.Data.DataRow,System.String)">
+            <summary>
+            Send email which feedback report pdf-file will be attached
+            </summary>
+            <param name="sample"></param>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.SendSmtpMailWithAttachmentsApi(System.Data.DataRow,System.String,System.String)">
+            <summary>
+            Send email via SendMail API
+            </summary>
+            <param name="sample"></param>
+            <param name="fileName"></param>		
+            <param name="contentType">Content type. Default is text/plain. For html messages use text/html</param>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.CleanBackupFiles">
+            <summary>
+            Clean old pdf-files from backup directory
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.GetSampleIds(System.Data.DataRow,System.String@,System.String@,System.Int64@)">
+            <summary>
+            Get new sample ids
+            </summary>
+            <param name="sample"></param>
+            <param name="measurementPoint"></param>
+            <param name="sampleYear"></param>
+            <param name="sampleNumber"></param>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.WriteToLogFile(System.String)">
+            <summary>
+            Write log to log file
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackCont.#ctor">
+            <summary>
+            private constructor
+            </summary>
+        </member>
+        <member name="T:UPM.Forest.ForReport.HarvestFeedbackForm">
+            <summary>
+            HarvestFeedbackForm is used to generate grids and chart which are needed in pdf creation.
+            </summary>
+        </member>
+        <member name="F:UPM.Forest.ForReport.HarvestFeedbackForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.#ctor(UPM.Forest.ForReport.HarvestFeedbackCont)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="cont">controller instance</param>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.InitPdf">
+            <summary>
+            Initialize pdf-component
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.DrawHeader(System.Drawing.RectangleF)">
+            <summary>
+            Draw header and underline
+            </summary>
+            <param name="usableArea"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.DrawSampleGrid(System.Drawing.RectangleF)">
+            <summary>
+            Draw sample grid
+            </summary>
+            <param name="usableArea"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.DrawSampleQualityGrid(System.Drawing.RectangleF)">
+            <summary>
+            Draw quality grid
+            </summary>
+            <param name="usableArea"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.DrawSampleLengthGrid(System.Drawing.RectangleF)">
+            <summary>
+            Draw length grid
+            </summary>
+            <param name="usableArea"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.DrawChart(System.Drawing.RectangleF)">
+            <summary>
+            Draw cutting accuracy chart
+            </summary>
+            <param name="usableArea"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.DrawAccuracyGrid(System.Drawing.RectangleF)">
+            <summary>
+            Draw cutting accuracy grid
+            </summary>
+            <param name="usableArea"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.HarvestFeedbackForm_Load(System.Object,System.EventArgs)">
+            <summary>
+            Load event handler
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.RedrawControls">
+            <summary>
+            Draws controls for report again
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.HarvestFeedbackForm.CreatePdf(System.String)">
+            <summary>
+            Create pdf file after all draw operation are done.
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="T:UPM.Forest.ForReport.MainProg">
+            <summary>
+            Summary description for MainProg.
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.MainProg.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UPM.Forest.ForReport.MainProg.Run(System.String[])">
+            <summary>
+            Method start the right controller for creating reports
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
