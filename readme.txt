@@ -6,7 +6,7 @@ DATABASE SECURITY CHECKER VERSION 2.0.0.6
 __________________________________________
 1.1 Overview
 Configuring and maintaining secure authentication protocols such as Kerberos and TLS can be complex and challenging. These protocols require precise settings and proper environment configurations, making the setup process intricate. Authentication issues often lead to cryptic and difficult-to-diagnose errors, necessitating significant troubleshooting efforts. The need to manage multiple configuration files, environment variables, and certificates further complicates the process. Incorrect settings can cause authentication failures, leading to prolonged downtimes and potential security vulnerabilities. The lack of comprehensive diagnostic tools worsens these issues, making it hard to identify the root cause of problems. As a result, database administrators and IT security teams spend considerable time and resources ensuring these protocols are correctly implemented and maintained. dbsecchk addresses these challenges by simplifying the validation, troubleshooting, and remediation processes for Kerberos and TLS configurations.
-
+Master file is changed
 1.2 Purpose
 dbsecchk is designed to review Kerberos and TLS setups, identifying issues in these configurations. It provides clear actionable steps for remediation, ensuring correct environment settings.
 
