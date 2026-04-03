@@ -238,3 +238,45 @@ ls ssh
 cd ssh
 cd .ssh
 ls
+git status
+git tag
+touch aws azure gcp 
+git add *
+git commit -m "AWS" 
+git status
+git add *
+git status
+git log
+ll -a
+git status *
+git status .
+git commit -m "Azure is committed" azure 
+git add azure
+git status
+git commit -m "Azure is done" azure 
+git log
+git log 0bdba3380b0e20cebe21e6a3847d136f6b9e9798
+git show  0bdba3380b0e20cebe21e6a3847d136f6b9e9798
+git add *
+git status
+git add .ssh/raj.txt
+git status
+git commit -m "ssh" .
+git status
+git tag tagname
+git tag
+git tag -a tagname  -m "Release version 1.0"
+git tag -a v1.0  -m "Release version 1.0"
+git log
+touch file{20..25}
+git add *
+git commit -m "all are commited" .
+git log
+git tag -a v2.0  -m "Release version 2.0"
+git log
+git show tagname
+git tag
+git tag v2.0
+git show v2.0
+git checkout v1.0
+git log
