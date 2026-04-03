@@ -166,3 +166,75 @@ chown ec2-user:ec2-user shivrajkumar
 ll -a
 su - ec2-user
 passwd hyderabad
+yum install git -y
+ls
+git init .
+git init 
+git status
+git add file1.txt 
+git status
+git add .
+git status
+git commit -m "c1" .
+git status
+touch file1{1..5}
+git status
+git checkout -b raj
+git status
+git add .
+git commit -m "C2"
+git checkout -b master
+git checkout master
+git merge raj
+git status
+git log
+git show
+git log --oneline
+git switch raj
+touch file{8..10}
+git add .
+git commit -m "C3"
+git checkout master
+touch file{8..10}
+git add .
+git commit -m "c4"
+git rebase raj
+log
+git log
+git rebase --quit
+git merge raj
+vim tarun.txt
+git status
+vim tarun.txt
+touch raj.txt
+vim raj.txt
+vim vikram.txt
+git status
+ll -a
+chown :chandu file11
+ll -a
+chown chandu:chandu file11
+ll -a
+chmod 777 file11
+ll -a
+vim file1.txt
+rm file1.txt
+vim file1.txt
+cat dile1.txt
+rm -rf file1.txt
+ll -a
+top
+htop
+ll -a
+cp tarun.txt.swp file10
+cp raj.txt file10
+cat file10
+cat raj
+cat raj.txt
+cp filel1 filel2
+cp filel3 filel2
+mv raj.txt .ssh
+ls ssh
+cd ssh
+cd .ssh
+ls
